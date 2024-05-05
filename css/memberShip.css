@@ -1,0 +1,32 @@
+.section-membership{
+    font-family: var(--font-secundaria);
+}
+.title-membership{
+    font-size: 50px;
+    font-weight: 600;
+}
+hr{
+    background-color: #D8D8D8;
+}
+.list-plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.item-plans{
+    background-color: #232532;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.title-plan{
+    font-size: 40px;
+}
+.paragrafo-plan, .item-benefics-plan{
+    font-size: 17px;
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,121 @@
+.principal{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: var(--font-secundaria);
+    position: relative;
+    margin: 6em 20em;
+    left: 2%;
+    transform: (-50%);
+}
+.conteudo-text{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.principal-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    gap: 80px;
+}
+.principal-title{
+    font-size: 150px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    width: 800px;
+}
+.principal-paragrafo{
+    width: 600px;
+}
+.principal-btn{
+    cursor: pointer;
+    background-color: var(--btn-background-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+.principal-logos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-logos{
+    display: flex;
+    gap: 20px;
+}
+.img-man{
+    height: 60vh;
+    background-size: cover;
+    position: absolute;
+    top: 90px; /* Ajuste conforme necessário */
+    left: 800px; /*Ajuste conforme necessário */
+}
+.card1, .card2, .card3{
+    position: absolute;
+    z-index: 1;
+}
+.card1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: var(--card1-background-color);
+    padding: 15px;
+    border-radius: 10px;
+    top: 380px;
+    left: 700px;
+}
+.img-play{
+    width: 30px;
+    height: 30px;
+}
+.card1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card1-text1{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.card1-text2{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.card2{
+    top: 25px;
+    left: 1100px;
+    background-color: var(--card2-background-color);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.stick-run{
+    width: 20px;
+    height: 20px;
+    background-color: #EFA082;
+    border-radius: 20px;
+    padding: 8px;
+}
+.span-card2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card3{
+    top: 450px;
+    left: 1150px;
+    background-color: #7A29DC;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card3-text1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.card3-text2{
+    font-size: 13px;
+}

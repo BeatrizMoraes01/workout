@@ -1,0 +1,20 @@
+@import url(header.css);
+@import url(conteudoPrincipal.css);
+@import url(servicos.css);
+@import url(workHome.css);
+@import url(memberShip.css);
+:root{
+    --font-principal: "Inter", sans-serif;
+    --font-secundaria: "Poppins", sans-serif;
+    --color-font-principal: #FAFAF9;
+    --btn-background-color: #E6533C;
+    --card1-background-color: #303030;
+    --card2-background-color: #EF8964;
+}
+
+body{
+    background-color: #000000;
+    font-size: 16px;
+    color: var(--color-font-principal);
+    margin: 3em;
+}

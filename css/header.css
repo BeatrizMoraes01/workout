@@ -1,0 +1,9 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-secundaria);
+}
+.list-options{
+    display: flex;
+    gap: 15px;
+}

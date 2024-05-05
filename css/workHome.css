@@ -1,0 +1,38 @@
+.section-workHome, .section-training-program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: var(--font-secundaria);
+}
+.workHome-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+}
+.workHome-text-title{
+    font-size: 60px;
+    font-weight: 600;
+}
+.workHome-text-paragrafo{
+    width: 70%;
+    font-size: 20px;
+}
+.workHome-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.workHome-linker{
+    color: #0070C9;
+    font-size: 20px;
+}
+.crossfit-woman{
+    width: 590px;
+    height: 540px;
+}
+.section-training-program{
+    margin: 10em auto;
+    gap: 50px;
+}
