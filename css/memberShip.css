@@ -1,32 +1,54 @@
-.section-membership{
-    font-family: var(--font-secundaria);
-}
-.title-membership{
-    font-size: 50px;
-    font-weight: 600;
-}
-hr{
-    background-color: #D8D8D8;
-}
-.list-plans{
+.list-options-benefics{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 10px;
 }
-.item-plans{
-    background-color: #232532;
+.benefics-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    /* gap: 20px; */
+    background-color: var(--background-benefics);
+    width: 450px;
+    height: 600px;
+    padding: 100px;
+    font-family: var(--font-secundaria);
 }
-.title-plan{
-    font-size: 40px;
+.title-benefics{
+    font-size: 50px;
 }
-.paragrafo-plan, .item-benefics-plan{
-    font-size: 17px;
-    width: 50%;
-    height: 50%;
+.paragraph-benefics{
+    font-size: 20px;
+    color: var(--font-benefics);
+}
+.list-options-benefics-1{
+    list-style-type: disc;
+    font-size: 25px;
+    padding: 20px;
+    color: var(--font-benefics);
+}
+#link-benefics{
+    margin-left: -390px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.ancora-see-more{
+    color: var(--color-font-link);
+    font-size: 20px;
+}
+
+#benefic-free{
+    margin-bottom: 50px;
+}
+#benefics-pay{
+    margin-bottom: 10px;
+}
+.join-club{
+    background-color: var(--color-font-link);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
 }
